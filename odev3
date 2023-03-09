@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class ucgenAlan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+  
+		
+		Scanner inp= new Scanner(System.in);
+		System.out.print("yuksekligi giriniz");
+		int h=inp.nextInt();
+		 
+		System.out.print("taban uzuluğu giriniz");
+		int a=inp.nextInt();
+		
+		System.out.print("ucgenin alanı" +(h*a)/2);
+		
+		 
+		 
+}
+}
